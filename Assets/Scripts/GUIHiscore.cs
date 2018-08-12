@@ -103,6 +103,7 @@ public class GUIHiscore : MonoBehaviour {
 			}
 
 			NAME = "";
+			enteredName = false;
 		}
 
 		hiscore.GetComponent<Text>().text = "1.  " + names[0] + "  " + scores[0] + "00";
